@@ -1,7 +1,7 @@
 # Club Budget Tracker
 
 
-###Models and Description:
+### Models and Description:
 
 User
 
@@ -21,7 +21,7 @@ Transaction
 * has a club and user
 * accessed by users, maintains a transaction log 
 	
-###Features:
+### Features:
 
 * Users can log in
 * Users can record a transaction
