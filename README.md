@@ -1,9 +1,10 @@
 # Club Budget Tracker
 
 
-Models and Description:
+###Models and Description:
 
-* User
+User
+
 * has name, email (for login purposes)
 * belongs to club or many clubs
 * normal club member & admin (treasurer) roles (gem:cancancan)
@@ -20,7 +21,7 @@ Transaction
 * has a club and user
 * accessed by users, maintains a transaction log 
 	
-Features:
+###Features:
 
 * Users can log in
 * Users can record a transaction
