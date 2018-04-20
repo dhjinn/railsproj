@@ -1,24 +1,27 @@
-# README
+# Club Budget Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Models and Description:
+User
+¡ñ has name, email (for login purposes)
+¡ñ belongs to club or many clubs
+¡ñ normal club member & admin (treasurer) roles (gem:cancancan)
+¡ñ has a value
 
-* Ruby version
+Club
+¡ñ has many users
+¡ñ has total budget
 
-* System dependencies
+Transaction
+¡ñ has a value spent, description text, date, flag if reimbursed (changed by admin)
+¡ñ has a club and user
+¡ñ accessed by users, maintains a transaction log 
+	
+Features:
+¡ñ Users can log in
+¡ñ Users can record a transaction
+¡ñ Users can create clubs (becomes admin)
+¡ñ Admin can flag a transaction, change the budget
+¡ñ Admin can change other users to admin
+¡ñ Splitting up charges and payments
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
